@@ -8,25 +8,8 @@
 import SwiftUI
 import SDWebImageSwiftUI
 
-// We call this on the rest of the app
-// We can manage several SDKs with this struct (if SDWeb... else Kingfisher)
-struct ImageLoader: View {
-    
-    let url: String
-    var contentMode: ContentMode = .fill
-    
-    var body: some View {
-        Rectangle()
-            .opacity(0)
-            .overlay(
-                SDWebImageLoader(url: url, contentMode: contentMode)
-            )
-            .clipped()
-    }
-}
-
-// Only available in this file
-fileprivate struct SDWebImageLoader: View {
+// Specific code for SDWebImage
+struct SDWebImageLoader: View {
     
     let url: String
     var contentMode: ContentMode = .fill
@@ -80,24 +63,3 @@ extension SDWebImageExample {
     .aspectRatio(contentMode: .fit)
     }
 }
-
-// logic to preload data that will be shown to user
-final class ImagePrefetcher {
-    
-    static let instance = ImagePrefetcher()
-    private let prefetcher = SDWebImagePrefetcher()
-    
-    private init() {}
-    
-    func startPrefetching(urls: [URL]) {
-        prefetcher.prefetchURLs(urls)
-    }
-    
-    func stopPrefetching() {
-        prefetcher.cancelPrefetching()
-    }
-}
-
- 
-// Using rectangle + overlay + clipped so frame works fine
-// contentMode .fill extends out of the frame -> check with clipped

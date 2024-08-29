@@ -1,7 +1,7 @@
 //
 //  SDWebImageExample.swift
 //  SwiftPackages
-//
+//  https://youtu.be/3QZTGatsI-c?si=Ec3hQumxJ_HDQzWH
 //  Created by Uri on 27/8/24.
 //
 
@@ -28,6 +28,18 @@ struct SDWebImageLoader: View {
     }
 }
 
+#Preview {
+    VStack(spacing: 100) {
+        SDWebImageLoader(
+            url: "https://picsum.photos/id/237/200/300",
+            contentMode: .fill
+        )
+        .frame(width: 200, height: 200)
+        
+        //SDWebImageExample()
+    }
+}
+
 struct SDWebImageExample: View {
     
     var body: some View {
@@ -42,10 +54,6 @@ struct SDWebImageExample: View {
 //        }
         
     }
-}
-
-#Preview {
-    SDWebImageExample()
 }
 
 extension SDWebImageExample {

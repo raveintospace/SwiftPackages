@@ -31,7 +31,7 @@ struct SDWebImageLoader: View {
 #Preview {
     VStack(spacing: 100) {
         SDWebImageLoader(
-            url: "https://picsum.photos/id/237/200/300",
+            url: "https://picsum.photos/id/23/200/300",
             contentMode: .fill
         )
         .frame(width: 200, height: 200)
@@ -44,7 +44,7 @@ struct SDWebImageExample: View {
     
     var body: some View {
         ImageLoader(
-            url: "https://picsum.photos/id/237/200/300",
+            url: "https://picsum.photos/id/23/200/300",
             contentMode: .fill
         )
         .frame(width: 100, height: 300)
@@ -59,7 +59,7 @@ struct SDWebImageExample: View {
 extension SDWebImageExample {
     
     private var testCurrentCode: some View {
-        WebImage(url: URL(string: "https://picsum.photos/id/237/200/300")) { image in
+        WebImage(url: URL(string: "https://picsum.photos/id/23/200/300")) { image in
             image.resizable()
         }
     placeholder: {

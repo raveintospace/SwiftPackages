@@ -29,7 +29,7 @@ struct ImageLoader: View {
 
 #Preview {
     ImageLoader(
-        url: "https://picsum.photos/id/237/200/300",
+        url: "https://picsum.photos/id/24/200/300",
         contentMode: .fit
     )
 }

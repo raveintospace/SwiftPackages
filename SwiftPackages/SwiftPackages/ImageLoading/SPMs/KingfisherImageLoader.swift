@@ -34,7 +34,7 @@ struct KingfisherImageLoader: View {
 
 #Preview {
     KingfisherImageLoader(
-        url: "https://picsum.photos/id/237/200/300",
+        url: "https://picsum.photos/id/23/200/300",
         contentMode: .fill
     )
     .frame(width: 200, height: 200)

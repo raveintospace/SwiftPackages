@@ -1,5 +1,5 @@
 {
-  "originHash" : "cef339484fbb8e750cb28de885b2151f882ac9d94d8de3a595928008446171d7",
+  "originHash" : "216660fba179e4b3841ef0e5068ddbada130a939e61cb1fed16dfc52bdcaab16",
   "pins" : [
     {
       "identity" : "keychain-swift",
@@ -35,6 +35,24 @@
       "state" : {
         "revision" : "5d462f7530677ae0c2b9510c26383aa25ba48751",
         "version" : "3.1.1"
+      }
+    },
+    {
+      "identity" : "swiftfulrecursiveui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftfulThinking/SwiftfulRecursiveUI.git",
+      "state" : {
+        "revision" : "3d2d5ac6efe70874fb5ffb2f8e1d5ccd457f4366",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "swiftfului",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftfulThinking/SwiftfulUI.git",
+      "state" : {
+        "revision" : "7e6e2d1c29d05e1519f2f5a2ce6012fe4e4dfa19",
+        "version" : "1.2.0"
       }
     }
   ],

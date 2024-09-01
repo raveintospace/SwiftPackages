@@ -12,6 +12,8 @@
 		343D76082C835F3100E71CF9 /* SwiftfulUIBootcampTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343D76072C835F3100E71CF9 /* SwiftfulUIBootcampTwo.swift */; };
 		34A0A2992C82137600DCC628 /* KeychainSwiftExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A0A2982C82137600DCC628 /* KeychainSwiftExample.swift */; };
 		34A0A29C2C82145900DCC628 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 34A0A29B2C82145900DCC628 /* KeychainSwift */; };
+		34CCB8FD2C84AABF00D151F7 /* SwiftfulUIAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCB8FC2C84AABF00D151F7 /* SwiftfulUIAsync.swift */; };
+		34CCB8FF2C84ADAD00D151F7 /* SwiftfulStretchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CCB8FE2C84ADAD00D151F7 /* SwiftfulStretchy.swift */; };
 		34DCC28C2C80CD590063A9EC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCC28B2C80CD590063A9EC /* ImageLoader.swift */; };
 		34DCC28E2C80CE0C0063A9EC /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCC28D2C80CE0C0063A9EC /* ImagePrefetcher.swift */; };
 		34DCC2922C80CFA20063A9EC /* KingfisherImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DCC2912C80CFA20063A9EC /* KingfisherImageLoader.swift */; };
@@ -28,6 +30,8 @@
 		343D76022C835A5B00E71CF9 /* SwiftfulUIBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulUIBootcamp.swift; sourceTree = "<group>"; };
 		343D76072C835F3100E71CF9 /* SwiftfulUIBootcampTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulUIBootcampTwo.swift; sourceTree = "<group>"; };
 		34A0A2982C82137600DCC628 /* KeychainSwiftExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwiftExample.swift; sourceTree = "<group>"; };
+		34CCB8FC2C84AABF00D151F7 /* SwiftfulUIAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulUIAsync.swift; sourceTree = "<group>"; };
+		34CCB8FE2C84ADAD00D151F7 /* SwiftfulStretchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulStretchy.swift; sourceTree = "<group>"; };
 		34DCC28B2C80CD590063A9EC /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		34DCC28D2C80CE0C0063A9EC /* ImagePrefetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
 		34DCC2912C80CFA20063A9EC /* KingfisherImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherImageLoader.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 			children = (
 				343D76022C835A5B00E71CF9 /* SwiftfulUIBootcamp.swift */,
 				343D76072C835F3100E71CF9 /* SwiftfulUIBootcampTwo.swift */,
+				34CCB8FC2C84AABF00D151F7 /* SwiftfulUIAsync.swift */,
+				34CCB8FE2C84ADAD00D151F7 /* SwiftfulStretchy.swift */,
 			);
 			path = UIHelpers;
 			sourceTree = "<group>";
@@ -219,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				343D76082C835F3100E71CF9 /* SwiftfulUIBootcampTwo.swift in Sources */,
+				34CCB8FF2C84ADAD00D151F7 /* SwiftfulStretchy.swift in Sources */,
 				34DCC2922C80CFA20063A9EC /* KingfisherImageLoader.swift in Sources */,
 				34FC25E92C7E2FAC000E90BD /* SDWebImageExample.swift in Sources */,
 				343D76032C835A5B00E71CF9 /* SwiftfulUIBootcamp.swift in Sources */,
@@ -227,6 +234,7 @@
 				34DCC28C2C80CD590063A9EC /* ImageLoader.swift in Sources */,
 				34DCC28E2C80CE0C0063A9EC /* ImagePrefetcher.swift in Sources */,
 				34FC25D82C7E2D98000E90BD /* SwiftPackagesApp.swift in Sources */,
+				34CCB8FD2C84AABF00D151F7 /* SwiftfulUIAsync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -71,6 +71,10 @@ struct SwiftfulUIBootcamp: View {
                         // what happens when dragging finishes
                     }
                 )
+            
+            CountdownViewBuilder(endTime: Date().addingTimeInterval(60 * 60 * 24), displayOption: .timeAs_h_m_s, content: { string in
+                Text(string)
+            })
         }
     }
 }

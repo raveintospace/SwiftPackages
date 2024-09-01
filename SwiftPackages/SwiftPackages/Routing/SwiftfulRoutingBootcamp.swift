@@ -63,3 +63,4 @@ struct MyThirdView: View {
 }
 
 // RouterView works under a NavigationStack
+// https://github.com/SwiftfulThinking/SwiftfulRoutingExample -> Project to test all functionalities

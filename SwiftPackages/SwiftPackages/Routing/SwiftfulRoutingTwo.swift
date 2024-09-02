@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftfulRouting
 
+// Pass the router directly instead of using @Environment
 struct SwiftfulRoutingTwo: View {
     var body: some View {
         RouterView { router in
@@ -63,5 +64,3 @@ struct MyThirdScreen: View {
 #Preview {
     SwiftfulRoutingTwo()
 }
-
-// Pass the router directly instead of using @Environment

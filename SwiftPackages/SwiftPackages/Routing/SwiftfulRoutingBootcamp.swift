@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftfulRouting
 
+// Router with @Environment
 struct SwiftfulRoutingBootcamp: View {
     var body: some View {
         RouterView { _ in

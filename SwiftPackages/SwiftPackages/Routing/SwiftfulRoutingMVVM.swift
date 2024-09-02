@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftfulRouting
 
+// Routing set up in ViewModel
 struct SwiftfulRoutingMVVM: View {
     var body: some View {
         RouterView { router in
@@ -71,5 +72,3 @@ struct MyThirdScreenMVVM: View {
 #Preview {
     SwiftfulRoutingMVVM()
 }
-
-// Routing set up in ViewModel
